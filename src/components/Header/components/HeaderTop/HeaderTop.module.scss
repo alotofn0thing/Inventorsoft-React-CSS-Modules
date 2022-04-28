@@ -4,7 +4,7 @@
 }
 .container {
 	display: flex;
-	max-width: 80%;
+	max-width: 75%;
 	height: 100%;
 	justify-content: space-between;
 	align-items: center;
@@ -26,6 +26,9 @@
 		align-items: center;
 		gap: 12px;
 		color: #fff;
+		&:hover {
+			color: rgb(188, 187, 187);
+		}
 	}
 
 	.phone {

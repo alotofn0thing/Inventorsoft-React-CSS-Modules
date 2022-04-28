@@ -10,11 +10,11 @@ export const Info = () => {
 			<div className={styles.container}>
 				<div className={styles.item}>
 					<h3 className={styles.title}>Phone</h3>
-					<div className={styles.itemContainer}>
+					<a className={styles.itemContainer} href='tel:+34 965 020784'>
 						<img src={phone} alt='phone' />
 
 						<p>+34 965 020784</p>
-					</div>
+					</a>
 				</div>
 
 				<div className={styles.item}>
@@ -27,11 +27,11 @@ export const Info = () => {
 
 				<div className={styles.item}>
 					<h3 className={styles.title}>E-mail</h3>
-					<div className={styles.itemContainer}>
+					<a className={styles.itemContainer} href='mailto:sales@wtgspain.com'>
 						<img src={email} alt='email' />
 
 						<p>sales@wtgspain.com</p>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div className={styles.decorator} />

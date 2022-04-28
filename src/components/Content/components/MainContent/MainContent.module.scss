@@ -49,5 +49,8 @@
 		text-decoration: none;
 		font-weight: 400;
 		font-size: 12px;
+		&:hover {
+			color: rgb(118, 117, 117);
+		}
 	}
 }

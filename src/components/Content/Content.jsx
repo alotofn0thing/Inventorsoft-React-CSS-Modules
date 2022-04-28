@@ -7,12 +7,12 @@ import styles from './Content.module.scss';
 
 export const Content = () => {
 	return (
-		<div className={styles.main}>
+		<>
 			<ContactUs />
 			<div className={styles.body}>
 				<MainContent />
 				<ContactsInfo />
 			</div>
-		</div>
+		</>
 	);
 };

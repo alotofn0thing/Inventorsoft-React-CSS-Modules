@@ -10,20 +10,20 @@ export const ContactsSection = () => {
 		<div>
 			<h4>Contacts:</h4>
 			<div className={styles.contacts}>
-				<div className={styles.item}>
+				<a className={styles.item} href='tel:+34 965 020784'>
 					<div className={styles.container}>
 						<img src={smartphone} alt='phone_icon' />
 					</div>
 					<p>+34 (965) 020 - 784</p>
-				</div>
+				</a>
 
-				<div className={styles.item}>
+				<a className={styles.item} href='mailto:sales@wtgspain.com'>
 					<div className={styles.container}>
 						<img className={styles.mail} src={mail} alt='mail' />
 					</div>
 
 					<p>sales@wtgspain.com</p>
-				</div>
+				</a>
 
 				<div className={styles.item}>
 					<div className={styles.container}>

@@ -8,9 +8,9 @@ export const Navigation = () => {
 	return (
 		<div className={styles.navigation}>
 			<div className={styles.container}>
-				<div className={styles.logo}>
+				<Link className={styles.logo} to='/'>
 					<img src={logo} alt='logo' />
-				</div>
+				</Link>
 				<div className={styles.menuContainer}>
 					<div className={styles.menu}>
 						<Link to='/cities'>Cities</Link>

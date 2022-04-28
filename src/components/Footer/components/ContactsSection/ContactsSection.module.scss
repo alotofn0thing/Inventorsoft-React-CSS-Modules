@@ -10,6 +10,15 @@
 	gap: 20px;
 	margin: 20px 0 0 23px;
 	max-width: 400px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+	a {
+		color: #fff;
+		text-decoration: none;
+		&:hover {
+			color: rgb(194, 194, 194);
+		}
+	}
 }
 
 .item {
@@ -29,11 +38,6 @@
 	}
 	.address {
 		max-width: 300px;
-		font-family: 'Montserrat';
-		font-size: 14px;
-		line-height: 17px;
-		letter-spacing: 0.05em;
-		color: #ffffff;
 	}
 }
 

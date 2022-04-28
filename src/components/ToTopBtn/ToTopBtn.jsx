@@ -30,9 +30,7 @@ export const ToTopBtn = () => {
 			onClick={scrollToTop}
 			style={{ display: visible ? 'inline' : 'none' }}
 		>
-			<a href='#header'>
-				<img src={toTop} alt='toTop' />
-			</a>
+			<img src={toTop} alt='toTop' />
 		</div>
 	);
 };
