@@ -1,0 +1,59 @@
+.topHeader {
+	height: 34px;
+	background-color: #0a0043;
+}
+.container {
+	display: flex;
+	max-width: 80%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.contacts {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+
+	a {
+		text-decoration: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 12px;
+		color: #fff;
+	}
+
+	.phone {
+		a {
+			img {
+				width: 14px;
+				height: 14px;
+			}
+		}
+	}
+	.whatsapp {
+		a {
+			gap: 8px;
+		}
+		font-size: 12px;
+	}
+}
+.langContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	.like {
+		height: 23px;
+		width: 33px;
+		cursor: pointer;
+	}
+	.lang {
+		cursor: pointer;
+	}
+}

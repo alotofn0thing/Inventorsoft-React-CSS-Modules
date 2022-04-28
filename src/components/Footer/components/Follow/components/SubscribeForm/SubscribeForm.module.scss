@@ -1,0 +1,40 @@
+.form {
+}
+
+.container {
+	display: flex;
+	flex: 1;
+}
+
+.input {
+	flex: 1;
+	padding: 8px 10px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	display: flex;
+
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+	color: #6a6a6a;
+}
+
+.btn {
+	color: #fff;
+	flex-basis: 30%;
+	padding: 7px 10px 9px;
+	border: none;
+	border-radius: 0px 5px 5px 0px;
+	outline: none;
+	background: linear-gradient(90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+	cursor: pointer;
+
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 12px;
+	&:hover {
+		background: linear-gradient(90deg, #0044b2 0%, #3654db 50%, #5893d7 100%);
+	}
+}

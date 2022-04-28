@@ -1,0 +1,15 @@
+.container {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 14px;
+	}
+}
